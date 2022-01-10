@@ -1,0 +1,61 @@
+/* mobile and tablet */
+@media only screen and (max-width:63.9375em){
+    /* header */
+    .header-top p{
+        margin: auto;
+        justify-content: center;
+    }
+    .header_top-login{
+        display: none;
+    }
+    .header-search-input_search{
+        display: flex;
+    }
+    .hearder-search{
+        display: none;
+    }
+    .header-contact_call{
+        display: none;
+    }
+    .header-footer{
+        display: none;
+    }
+    .nav-cate_left{
+        display: none;
+    }
+   
+
+
+}
+/* mobile: with< 740px */
+@media only screen and (max-width:46.1875em) {
+    .nav-cate_sliter{
+        position: relative;
+        width: 100%;
+    }
+    .nav-cate_sliter .slider{
+        width: 100%;
+        height: 65%;
+    }
+    .nav-cate_sliter ul {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 20%;
+        justify-content: space-between;
+        margin-top: 25%;
+    }
+    .nav-cate_sliter ul:hover .nav-cate_sliter ul li{
+        display: flex;
+    }
+    .nav-cate_sliter ul li{
+        margin: 0 20px;
+        width: 20%;
+        height: 99%;
+        display: none;
+    }
+}
+/* tablet: width >= 740px và nhỏ hơn 1024px */
+@media only screen and (min-width:46.25em) and (max-width:63.9375em){
+
+}

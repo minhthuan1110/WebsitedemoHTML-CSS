@@ -1,0 +1,5 @@
+Host vinasupport.com
+    HostName localhost
+    Port 2222
+    User admin
+    IdentityFile /home/vinasupport/.ssh/id_rsa
